@@ -1,5 +1,5 @@
 /* eslint-disable no-useless-constructor */
-import { UserAlreadyExistsError } from '@/errors/user-already-exists-error'
+import { UserAlreadyExistsError } from '@/use-cases/errors/user-already-exists-error'
 import { UsersRepository } from '@/repositories/users-repository'
 import { User } from '@prisma/client'
 import { hash } from 'bcryptjs'
