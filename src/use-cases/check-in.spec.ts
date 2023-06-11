@@ -37,8 +37,6 @@ describe('Check-in Use Case', () => {
       userLongitude: -59.9681565,
     })
 
-    console.log(checkIn.created_at)
-
     expect(checkIn.id).toEqual(expect.any(String))
   })
   it('should not be able to check in twice in the same day', async () => {
